@@ -13,8 +13,9 @@ public class ShelfStocker implements Directions {
 
         int row = 1;
         int col = 1;
-        UrRobot bot = new UrRobot(row, col,
+        AveryBot bot = new AveryBot(row, col,
                 North, 1);
+        bot.turnRight();
 
     }
 }
