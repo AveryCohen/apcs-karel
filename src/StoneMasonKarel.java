@@ -12,6 +12,6 @@ public class StoneMasonKarel implements Directions {
         World.setVisible(true);
         World.setDelay(100);
 
-        UrRobot bot = new UrRobot(1, 1, East, 100);
+        SuperRobot bot = new SuperRobot(1, 1, East, 100);
     }
 }
